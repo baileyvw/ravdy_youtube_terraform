@@ -1,13 +1,14 @@
 variable "location" {
-    default = "ap-south-1"
+    default = "us-west-2"
 }
 
 variable "os_name" {
-    default = "ami-09ba48996007c8b50"
+    default = "ami-0efa651876de2a5ce"
+//    default = "ami-0192acc399bc1e569"
 }
 
 variable "key" {
-    default = "rtp-03"
+    default = "terraform1-dns-direct"
 }
 
 variable "instance-type" {
@@ -23,5 +24,5 @@ variable "subnet1-cidr" {
   
 }
 variable "subent_az" {
-    default =  "ap-south-1a"  
+    default =  "us-west-2a"
 }
